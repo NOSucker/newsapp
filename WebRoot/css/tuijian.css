@@ -1,0 +1,59 @@
+.header .container {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.header .title {
+    border-bottom: 1px solid #dddddd;
+    padding: 7px 0;
+}
+
+.header .myCare {
+    border-bottom: 1px solid #dddddd;
+}
+
+.header .myCare .pull-left {
+    padding: 9px;
+}
+
+.header .myCare .pull-right {
+    padding: 9px;
+}
+.header .myCare .pull-right form input{
+    padding-left: 18px;
+}
+.header .myCare .pull-right .glyphicon-search {
+    display: block;
+    position: relative;
+}
+
+.header .myCare .pull-right .glyphicon-search::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main .pull-right img {
+    width: 50px;
+    height: 30px;
+}
+
+.main ul li {
+    height: 60px;
+}
+
+.main ul li a {
+    display: block;
+    /* width: 100%; */
+    height: 100%;
+    padding: 10px 0;
+}
+
+.main .pull-left {
+    padding: 8px 0;
+    width: 70%;
+}
+
+.main .pull-right {
+    padding: 2px;
+}

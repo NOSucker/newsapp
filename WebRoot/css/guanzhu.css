@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#login_header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #fff;
+}
+
+#login_header #btn{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #3c3c3c;
+    cursor: pointer;
+}
+#login_header a:link,
+#login_header a:hover,
+#login_header a:active,
+#login_header a:visited{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+#login_header h1{
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+

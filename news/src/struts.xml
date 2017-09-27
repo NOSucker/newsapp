@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="person" namespace="/" extends="struts-default">
+		<action name="person" class="cn.nsu.edu.news.action.PersonAction">
+			<result name="register">/loginSuccess.jsp</result>
+			<result name="loginSuccess">/loginSuccess.jsp</result>
+			<result name="loginFailed">/loginFailed.jsp</result>
+		</action>
+	</package>
+ 	<package name="news" namespace="/" extends="struts-default">
+ 		<result-types>
+			<result-type name="json" class="org.apache.struts2.json.JSONResult"/>
+		</result-types>
+		<action name="news" class="cn.nsu.edu.news.action.NewsAction">
+			<result name="list">/tuijian.jsp</result>
+			<result name="openNews">/content.jsp</result>
+			<result name="focus">/focusSuccess.jsp</result>
+			<result name="json" type="json">
+				<param name="root">news</param>
+			</result>
+			<result name="search">/search.jsp</result>
+		</action>
+	</package>
+</struts>    

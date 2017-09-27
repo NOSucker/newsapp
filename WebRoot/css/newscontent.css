@@ -1,0 +1,186 @@
+/*header部分*/
+
+header {
+    box-shadow: -1px 0px 5px 1px #cccccc;
+}
+
+header.pull-left>a {
+    display: block;
+}
+
+.pull-right>a {
+    display: block;
+}
+
+header span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/bg.png") no-repeat;
+    background-size: 40px 182px;
+}
+header .backToTJ{
+	    background-position: 0 -142px;
+}
+#collect{
+	
+}
+.pull-left>a>.back {
+    background-position: 0 -142px;
+}
+
+.pull-right>a>.more {
+    background-position: 0 -107px;
+}
+
+.glyphicon-star {
+    display: none;
+    position: absolute;
+    left: -33px;
+    top: 5px;
+    background-position: 1000px 1000px;
+}
+
+.glyphicon-star::before {
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+   
+}
+
+#save {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#save img {
+    width: 100%;
+}
+
+
+/*header部分*/
+
+
+/*main部分*/
+
+· main>.top>h3 {
+    margin: 0;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+main>.newsInfo {
+    padding: 8px 0;
+    height: 36px;
+}
+
+main>.newsInfo>.pull-left {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.newsInfo .pull-right .follow {
+    display: block;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #a94442;
+    text-align: center;
+    line-height: 20px;
+}
+
+main>.content>img {
+    width: 100%;
+}
+
+main>.content>.text {
+    padding: 10px 0;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+/*评论*/
+
+.commentList {}
+
+.commentList dt {
+    font-size: 21px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a94442;
+}
+
+.commentList .list {}
+
+.commentList .list li {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 6px 0;
+    border-bottom: 1px dashed rgba(60, 118, 61, 0.48);
+}
+
+
+/*评论*/
+
+
+/*main部分*/
+
+
+/*footer部分*/
+
+footer>.container {
+    position: fixed;
+    left: 0;
+    bottom: -1px;
+    height: 30px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+footer>.container>.pull-left>form {
+    float: left;
+    padding: 8px;
+}
+
+.container>.pull-left>.icon-edit {
+    /* display: block; */
+    width: 40px;
+    height: 40px;
+    background: url("../img/bg.png") no-repeat;
+    background-size: 40px 182px;
+    background-position: 0 -2px;
+    float: left;
+}
+
+.container>.pull-right>.icon-commentNum {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/bg.png") no-repeat;
+    background-size: 40px 182px;
+    background-position: 0 -75px;
+}
+
+.container>.pull-right>.icon-share {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/bg.png") no-repeat;
+    background-size: 40px 182px;
+    background-position: 0 -41px;
+}
+
+
+/*footer部分*/
+
+#share {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#share img {
+    width: 100%;
+}
